@@ -1,0 +1,47 @@
+form{
+	border: 1px solid black;
+	height: 80%;
+	width: 40%;
+	
+	margin: 50px auto;
+	padding: 20px;
+	backdrop-filter: blur(20px ); 
+	box-shadow: 0px 0px 10px rgba(0 0 0 .2);
+}
+input, textarea{
+
+	width: 85%;
+	background-color: white;
+	color: rgb(66, 60, 60);
+	border: none;
+	padding: 15px 30px;
+	font-size: 16px;
+	margin: 20px 10px;
+	outline: none;
+	
+}
+body{
+
+	background-image:url("../beach-1751455_1280.jpg");
+	
+}
+.input1:focus{
+
+	color: rgb(48, 156, 214);
+    border: 3px solid rgb(48, 156, 214);
+	
+}
+#button{
+	color: white;
+	background-color: rgb(48, 156, 214);
+	border:4px solid white;
+	font-size: 25px;
+	width: 95%;
+
+}
+#button:hover{
+	color: rgb(48, 156, 214);
+	background-color: #fff;
+	border: #fff;
+	transform: 2px;
+}
