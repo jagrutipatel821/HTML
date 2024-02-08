@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form for css assignment </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        
+        }
+        body{
+            background-image: linear-gradient(40deg,  #a57cf0,#007bff,#0b98f6,#63b6ee,#05c9f0,#a8eafc);
+            background-repeat: no-repeat;
+            height: 100vh;
+            width: 100;
+            color: white;
+            font-family: 'Urbanist', sans-serif;
+
+
+        }
+        form{
+            background-color: #fff;
+            text-align: center;
+            position: relative;
+            top: -35%;
+
+            left: 60%;
+            padding: 20px;
+            border-radius: 5px;
+
+            height: 450px;
+            width: 30%;
+            
+
+        }
+        [class^="input"]{
+            margin: 10px;
+            padding: 10px;
+            height: 30px;
+            width: 80%;
+            font-size: 17px;
+            font-weight: 100;
+            background-color: #f2f2f2;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Urbanist', sans-serif;
+            color: rgb(38, 37, 37);
+            outline: none;
+            
+            
+
+        }
+        [class^="input"]:hover{
+            border: 1px solid #007bff;
+            box-shadow: 0px 0px 4px 2px skyblue;
+            
+
+        }
+    
+        h2{
+            margin: 20px;
+            color: rgb(83, 80, 80);
+            line-height: 1.2;
+            font-size: 2rem;
+            
+        }
+        #submit{
+            height: 50px; 
+            width: 86%;
+            border-radius: 30px; 
+            background-color: #007bff;
+            font-size: 20px;
+            color: #fff;
+            cursor: pointer;
+
+        }
+        #submit:hover{
+            background-color: #055fbe;
+        }
+        #div{
+            position: relative;
+            top: 30%;
+            left: 10%;
+        }
+       div h1{
+        font-size: 65px;
+        line-height: 80px;
+        letter-spacing: 4px;
+        word-spacing: 5px;
+       }
+       div p{
+        margin: 30px 0px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+
+       }
+       div a{
+        height: 60px;
+        width:300px;
+        padding: 15px 40px;
+        border: 2px solid green;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: green;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-radius: 50px;
+
+       }
+       div a:hover{
+        background-color: rgb(4, 86, 4);
+        border-bottom: 2px solid rgb(245, 237, 237);
+       }
+    </style>
+</head>
+<body>
+
+    <div id="div">
+    <h1>Fly makes you <br>faster</h1>
+    <p>New free template by uicookies.com. For more <br> templates visit the site.
+         Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit.</p>
+    <a href="#">see pricing</a>
+    </div>
+    <form action="">
+        <h2>Sign Up for Free</h2>
+        <input type="text" placeholder="Full Name" class="input-flid"><br>
+        <input type="email" name="email" placeholder="Email" class="input-flid"><br>
+        <input type="email" name="email" placeholder="Email" class="input-flid"><br>
+        <select class="input-flid" style="height: 53px; width: 86%;">
+            <option value selected>Type</option>
+            <option value>bacis</option>
+            <option value>business</option>
+            <option value>free</option>
+
+        </select><br>
+        <input type="submit" value="Register" class="input-flid" id="submit">
+
+    </form>
+    
+</body>
+</html>
