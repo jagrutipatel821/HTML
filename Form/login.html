@@ -11,18 +11,17 @@
         }
         body {
             margin:0;
-            padding:0;
+            padding:7% 0% 0%;
             font-family: sans-serif;
             background: linear-gradient(#141e30, #243b55);
+            display: flex;
+            justify-content: center;
+        
         }
         div{
-            /*position: absolute;*/
-            /*top: 50%;*/
-            /*left: 50% ;*/
-            margin: 300px 650px;
+           
             width: 400px;
             padding: 40px;
-            transform: translate(-50%, -50%);
             background: rgba(0,0,0,.5);
             box-sizing: border-box;
             box-shadow: 0 15px 25px rgba(0,0,0,.6);
@@ -63,9 +62,10 @@
             color: #03e9f4;
         }
        
-        form a {
+        .a {
             border-radius: 10px;
             border:1px solid #03e9f4;
+            background-color: transparent;
             position: relative;
             display: inline-block;
             padding: 10px 20px;
@@ -78,7 +78,7 @@
             margin-top: 40px;
             letter-spacing: 4px
         }
-        a:hover {
+        .a:hover {
                  background: #03e9f4;
                  color: #fff;
                  border-radius: 5px;
@@ -108,10 +108,9 @@
         <dl>
         <input type="password" required>
         <label for="">Password</label>
-        
         </dl>
 
-        <a href="../fashion.html">Submit</a>
+        <button type="submit" class="a">Submit</button>
         <br><br>
 
         

@@ -12,6 +12,7 @@
             #myVideo {
                 background-size: cover;
                 background-position: center;
+                object-fit: cover;
                 position:fixed;
                 top:0;
                 left: 0;
@@ -32,7 +33,7 @@
             }
             #div2{
                 position: absolute;
-                top: 440px;
+                top: 460px;
                 right: 0;
                 left: 0;
                 
@@ -40,24 +41,26 @@
            
             #div3{
                 position: absolute;
-                top: 880px;
+                top: 1020px;
                 right: 0;
                 left: 0;
               
             }
 
             div{
-                padding:auto;
+                
                 background: rgba(0, 0, 0, 0.5);
                  color: #f1f1f1;
                 text-align: center;
-                align : center;
+                padding-bottom: 20px;
+        
             }
 
             img{
                 
                 background-size: cover;
                 background-position: center;
+                object-fit: contain;
                 margin: 20px;
                 padding: 10px;
                 height: 300px;
@@ -67,36 +70,40 @@
             .v1{
                 background-size: cover;
                 background-position: center;
+                object-fit: cover;
                 margin: 20px;
                 padding: 10px;
-                height: 300px;
+                height: 400px;
                 width:20%;
 
+            }
+            h2{
+                text-transform: capitalize;
             }
         </style>
     </head>
     <body>
         
         <video autoplay muted loop id="myVideo">
-            <source src="/pexels-cottonbro-9511255 (2160p).mp4" type="video/mp4">
+            <source src="https://videos.pexels.com/video-files/9511255/9511255-uhd_2732_1440_25fps.mp4" type="video/mp4">
             
         </video>
         <div id="div1">
             <h2>this is images saction</h2>
             
-            <img src="/beautiful-smiling-young-blonde-woman-pointing-sunglasses-holding-shopping-bags-credit-card-pink-wall.jpg" alt="">
-            <img src="/cheerful-happy-woman-enjoying-shopping-summer-sale-she-is-carrying-shopping-bags-walking.jpg" alt="">
-            <img src="/handsome-tourist-sunglasses-straw-hat-looking-aside-smiling-pleased-exploring-sighsteeing.jpg" alt="">
+            <img src="https://images.pexels.com/photos/818992/pexels-photo-818992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <img src="https://images.pexels.com/photos/18506110/pexels-photo-18506110/free-photo-of-studio-shot-of-a-young-woman-wearing-a-black-blouse-hat-and-orange-trousers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+            <img src="https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
         </div>
         <div id="div2">
             <h2>this is videos saction</h2>
-            <video src="/production_id_3917742 (2160p).mp4" controls class="v1"></video>
-            <video src="/production_id_3888268 (2160p).mp4" controls class="v1"></video>
-            <video src="/woman_picking_out_clothes (1080p).mp4" controls class="v1"></video>
+            <video src="https://videos.pexels.com/video-files/8798366/8798366-uhd_1440_2732_25fps.mp4" controls class="v1"></video>
+            <video src="https://videos.pexels.com/video-files/4820383/4820383-hd_1080_1920_25fps.mp4" controls class="v1"></video>
+            <video src="https://videos.pexels.com/video-files/6770053/6770053-uhd_1440_2560_25fps.mp4" controls class="v1"></video>
         </div>
         <div id="div3">
             <h2>intro about our website</h2>
-            <audio src="/disco-groove-122074.mp3" controls></audio>
+            <audio src="little-princess-childrenx27s-joy-music-238311.mp3" controls></audio>
         </div>
     
           

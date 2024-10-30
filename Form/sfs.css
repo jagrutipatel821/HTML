@@ -1,5 +1,9 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 form{
-	border: 1px solid black;
+	
 	height: 80%;
 	width: 40%;
 	
@@ -20,10 +24,15 @@ input, textarea{
 	outline: none;
 	
 }
-body{
-
-	background-image:url("../beach-1751455_1280.jpg");
-	
+.body{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .input1:focus{
 
